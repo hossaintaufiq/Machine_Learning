@@ -23,3 +23,36 @@ method
 3- int64, float64, object 
 4- non null counts 
 5- memory usage of the data frame 
+
+
+
+filter
+
+1- select specific rows 
+2- filter rows 
+3- combine multiple conditions 
+
+
+1- square brackets 
+2- boolean conditions 
+
+selecting colums 
+1- a single colums 
+2- dataframe multiple columns of data 
+
+column= df["column name"]
+
+subset = df["column1", "column2" , ......]
+
+
+filtering rows 
+boolean indexing 
+
+
+based on a single condition 
+
+fillterred_rows = df[df["salary"]>5000]
+
+combined multiple conditions 
+
+filtered_rows= df[(df["salary"]>5000 ) & (df["Salary"]<80000 )]
