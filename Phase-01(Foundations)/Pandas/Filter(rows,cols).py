@@ -32,5 +32,11 @@ limited_salary = df[df["salary"]>50000]
 
 # selecting rows based on a multiple conditions 
 
-high_performance = df[(df["Performance Score"]>85)& (df["salary"]>60000)]
+# high_performance = df[(df["Performance Score"]>85)& (df["salary"]>60000)]
+
+# using or operator 
+high_performance = df[(df["Performance Score"]>85)|(df["salary"]>60000)]
 print(high_performance)
+print(high_performance.describe())
+print("Infor method for the hight_performance DataFrame: ")
+print(high_performance.info())
