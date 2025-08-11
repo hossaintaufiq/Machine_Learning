@@ -10,9 +10,7 @@ data={
 
 df= pd.DataFrame(data)
 
-df.loc[3, "salary"] = 55000  # Update salary for Taufiq at index 3
-
-# updating every ones salary by 5% 
-df["salary"]= df["salary"]*1.05
+# drop_columns= ["city"]
+df.drop(columns=["City"], inplace=True) # This will remove the 'City' column from the DataFrame
 
 print(df)
