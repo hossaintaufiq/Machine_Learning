@@ -1,0 +1,9 @@
+Employee ID,Name,Age,City,salary,Performance Score,Experience,Bonus
+1,Alice,25,New York,70000,85,2,7000.0
+2,Bob,30,Los Angeles,80000,90,5,8000.0
+3,Charlie,35,Chicago,120000,95,10,12000.0
+4,Taufiq,23,Dhaka,50000,80,1,5000.0
+5,Charlie,35,Dhaka,50000,75,3,5000.0
+6,Taufiq,23,Dhaka,60000,88,4,6000.0
+7,Hossain,40,Dhaka,90000,92,8,9000.0
+8,Sakib,45,Dhaka,100000,89,6,10000.0
