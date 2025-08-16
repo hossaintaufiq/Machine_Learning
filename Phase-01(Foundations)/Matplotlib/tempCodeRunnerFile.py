@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 
 x=[1,2,3,4] #x-axis
-y=[-125.4,-175.56,-250.8,-600]
+y=[91.96,167.2,209,334.4]
 
 plt.plot(x,y)
 
