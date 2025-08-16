@@ -24,8 +24,8 @@ df_orders = pd.DataFrame({
 print(df_orders)
 
 
-vertical=pd.concat([df_customers, df_orders], axis=0)  # Vertical concatenation
-horizontal=pd.concat([df_customers, df_orders], axis=1)  # Horizontal concatenation
+vertical=pd.concat([df_customers, df_orders], axis=0,ignore_index=True)  # Vertical concatenation
+horizontal=pd.concat([df_customers, df_orders], axis=1,ignore_index=True)  # Horizontal concatenation
 
 
 print("Vertical Concatenation:")
